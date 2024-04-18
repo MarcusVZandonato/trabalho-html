@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/trabalho-html/contato/style.css">
 </head>
 <body>
     <header>
@@ -13,16 +13,24 @@
     </header>
     <nav>
         <ul>
-            <li><a href="../home/index.html">Home</a></li>
-            <li><a href="../sobre/sobre.html">Sobre</a></li>
-            <li><a href="../servicos/servicos.html">Serviços</a></li>
-            <li><a href="./contato.html">Contato</a></li>
+            <li><a href="/trabalho-html/home/index.html">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
     <main>
         <form>
-            <label>nome</label>
-            <input type="text":/>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomesobrenome">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email">
+
+            <label for="tel">Telefone</label>
+            <input type="tel" id="tel">
+
+            <input type="submit" width="100%" value="Enviar formulário">
         </form>
     </main>
 

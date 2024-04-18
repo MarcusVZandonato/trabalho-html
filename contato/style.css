@@ -80,3 +80,18 @@ footer{
     padding: 20px;
     color: #fff;
 }
+form {
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    font-size: 15px;
+    margin: 0 0;
+}
+form input {
+    display: block;
+    margin: 0 0 10px;
+    padding: 10px 15px;
+    width: 50%;
+}

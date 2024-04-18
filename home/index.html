@@ -3,55 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-
-    <link rel="stylesheet" href="./style.css">
+    <title>Aula 06</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>Header</h1>
+        <h2>Header</h2>
     </header>
-    <nav>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="../sobre/sobre.html">Sobre</a></li>
-            <li><a href="../servicos/servicos.html">Serviços</a></li>
-            <li><a href="../contato/contato.html">Contato</a></li>
+
+    <nav class="navBar">
+        <ul> 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="/trabalho-html/contato/contato.html">Contato</a></li>
         </ul>
     </nav>
-    <main>
-        <h2>Main</h2>
-        <p>pagina inicial</p>
 
-        <div>
-            <section class="slides">
-            </section>
-            <hr>
-            <section class="blue">
-                <h3>Section</h3>
-                <p>Cr7</p>
-            </section>
-        </div>
+    
+    <main>
+        <h2>Main Content</h2>
+
+        <br>
+
+        <article>
+            <p>Espaço reservado para um artigo no conteúdo principal</p>
+        </article>
+
+        <br><br>
+
+        <section>
+            <div class="slider">
+
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+
+                    <div class="slide first">
+                        <img src="/trabalho-html/imagens/R.jpg" alt="Imagem">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/trabalho-html/imagens/h.jpg" alt="Imagem">
+                    </div>
+
+                    <div class="slide">
+                        <img src="/trabalho-html/imagens/g.jpg" alt="Imagem">
+                    </div>
+                </div>
+
+                <div class="navigation-bar">
+                    <label class="manual-btn" for="radio1"></label>
+                    <label class="manual-btn" for="radio2"></label>
+                    <label class="manual-btn" for="radio3"></label>
+                </div>
+            </div>
+        </section>
+
+        <hr><br>
+
+        <section class="section2">
+            <h1>Section 2</h1>
+            <br>
+            <p>Espaço reservado para seção 2</p>
+        </section>
+       
     </main>
 
     <aside>
-        <h2>Tópicos</h2>
-        <ul>
-            <li><a href="">Tópico 1</a></li>
-            <li><a href="">Tópico 2</a></li>
-            <li><a href="">Tópico 3</a></li>
-        </ul>
+        <nav class="navTopicos">
+            <ul>
+                <h2>Tópicos </h2>
+                <br>
+                <li><a href="#">Tópico 1</a></li>
+                <li><a href="#">Tópico 2</a></li>
+                <li><a href="#">Tópico 3</a></li>
+            </ul>
+        </nav>
+        
+        <br><br>
 
-        <h2>Links impotantes</h2>
-        <ul>
-            <li><a href="https://www.google.com.br/" target="_blank">google</a></li>
-            <li><a href="https://github.com/" target="_blank">github</a></li>
-            <li><a href="https://br.linkedin.com/" target="_blank">linkedin</a></li>
-        </ul>
+        <nav class="navLinks">
+            <ul>
+                <h2>Links importantes </h2>
+                <br>
+                <li><a href="https://www.google.com.br/?hl=pt-BR">Google</a></li>
+                <li><a href="https://www.instagram.com/">Github</a></li>
+                <li><a href="https://www.facebook.com/">Linkedin</a></li>
+            </ul>
+        </nav>
+
+        <br>
     </aside>
 
     <footer>
         <h2>Footer</h2>
+        <br>
+        <p>This is the footer of the page.</p>
+        <br>
+        <br>
     </footer>
 </body>
 </html>
